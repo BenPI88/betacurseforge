@@ -1,12 +1,10 @@
 {
-  "manifest_version": 3,
-  "name": "Beta Curseforge",
-  "version": "1.0.1",
-  "description": "An opener for the beta curseforge!",
-  "content_scripts": [
-    {
-      "matches": ["https://curseforge.com/*"]
-      "js": ["open.js"]
-    }
-  ]
+    "manifest_version": 3,
+    "name": "Beta Curseforge",
+    "version": "1.0.1",
+    "description": "An opener for the beta curseforge!",
+    "content_scripts": [{
+        "matches": ["https://curseforge.com/*"]
+        "js": ["open.js"]
+    }]
 }
